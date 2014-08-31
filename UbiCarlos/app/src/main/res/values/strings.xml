@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UbiCarlos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_social">social</string>
+    <string name="title_activity_promociones">promociones</string>
+    <string name="title_activity_filtro">filtro</string>
+    <string name="title_activity_establecimiento">establecimiento</string>
+    <string name="title_activity_registro">registro</string>
+    <string name="title_activity_categorias">categorias</string>
+    <string name="title_activity_categorita__actividad">Categorita_Actividad</string>
+
+</resources>

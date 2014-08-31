@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/filto"
+    android:background="#ffd88aff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></FrameLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Artículo"
+        android:id="@+id/checkBox"
+        android:layout_gravity="center|right"
+        android:textSize="30dp"
+        android:textColor="#ff7d07aa"
+        android:checked="false"
+        android:clickable="true"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoría"
+        android:id="@+id/checkBox2"
+        android:layout_gravity="left|center"
+        android:textSize="30dp"
+        android:textColor="#ff7d07aa"
+        android:checked="false"
+        android:clickable="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="301dp"
+        android:layout_height="230dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/logosccr" />
+
+    <ImageView
+        android:layout_width="296dp"
+        android:layout_height="267dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/escribir"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@android:drawable/ic_menu_add"
+        android:scaleType="fitXY" />
+</FrameLayout>

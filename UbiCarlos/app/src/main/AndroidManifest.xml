@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.latitude.ubicarlos" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".social"
+            android:label="@string/title_activity_social" >
+        </activity>
+        <activity
+            android:name=".promociones"
+            android:label="@string/title_activity_promociones" >
+        </activity>
+        <activity
+            android:name=".filtro"
+            android:label="@string/title_activity_filtro" >
+        </activity>
+        <activity
+            android:name=".establecimiento"
+            android:label="@string/title_activity_establecimiento" >
+        </activity>
+        <activity
+            android:name=".registro"
+            android:label="@string/title_activity_registro" >
+        </activity>
+        <activity
+            android:name=".categorias"
+            android:label="@string/title_activity_categorias" >
+        </activity>
+        <activity
+            android:name=".Categorita_Actividad"
+            android:label="@string/title_activity_categorita__actividad" >
+        </activity>
+    </application>
+
+</manifest>

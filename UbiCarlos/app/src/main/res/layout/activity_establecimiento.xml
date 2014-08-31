@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.latitude.ubicarlos.establecimiento"
+    android:id="@+id/establecimiento"
+    android:background="#ffd88aff">
+
+    <TextView
+        android:text="La Marina"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pantalla"
+        android:textColor="#ff07a503"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:fontFamily="@string/app_name"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="169dp"
+        android:layout_height="169dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="right|top"
+        android:src="@drawable/zoo" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="140dp"
+        android:text="       24742202"
+        android:id="@+id/num"
+        android:layout_gravity="right|bottom"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:phoneNumber="false"
+        android:textColor="#ffff1807" />
+
+    <TextView
+        android:text="100 metros este del INA"
+        android:layout_width="201dp"
+        android:layout_height="84dp"
+        android:id="@+id/textView"
+        android:textColor="#ff010700"
+        android:textSize="30dp"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/zona" />
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="102dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/logosccr"
+        style="@style/AppTheme" />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="84dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="right|bottom"
+        android:src="@android:drawable/stat_sys_phone_call" />
+
+</FrameLayout>

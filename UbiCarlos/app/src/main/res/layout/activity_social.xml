@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffd88aff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></FrameLayout>
+
+    <ImageButton
+        android:layout_width="131dp"
+        android:layout_height="116dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/waze"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:layout_width="131dp"
+        android:layout_height="116dp"
+        android:id="@+id/imageButton2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:src="@drawable/navi"
+        android:scaleType="fitCenter" />
+
+    <ImageButton
+        android:layout_width="131dp"
+        android:layout_height="116dp"
+        android:id="@+id/imageButton3"
+        android:layout_gravity="right|bottom"
+        android:src="@drawable/f4q"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:layout_width="418dp"
+        android:layout_height="418dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/logosccr" />
+
+</FrameLayout>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:id="@+id/principal"
+    android:background="#ffc92eff">
+
+    <ImageView
+        android:layout_width="119dp"
+        android:layout_height="119dp"
+        android:id="@+id/imagen" />
+
+    <TextView
+        android:layout_width="174dp"
+        android:layout_height="66dp"
+        android:text="Zapateria"
+        android:id="@+id/nombre"
+        android:layout_gravity="right|top"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_x="207dp"
+        android:layout_y="63dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:autoText="false"
+        android:textIsSelectable="false"
+        android:textColor="#ff0cff40" />
+</FrameLayout>

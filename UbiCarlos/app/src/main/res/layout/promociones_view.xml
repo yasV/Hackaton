@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/promoview"
+    android:background="#ffb88aff">
+
+    <TextView
+        android:layout_width="167dp"
+        android:layout_height="42dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/des"
+        android:layout_gravity="right|top"
+        android:layout_x="208dp"
+        android:layout_y="87dp" />
+
+    <ImageView
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        android:id="@+id/imagen"
+        android:layout_gravity="left|top"
+        android:layout_x="12dp"
+        android:layout_y="17dp" />
+
+    <TextView
+        android:layout_width="106dp"
+        android:layout_height="34dp"
+        android:text="New Text"
+        android:id="@+id/nombre"
+        android:layout_x="239dp"
+        android:layout_y="13dp" />
+
+</AbsoluteLayout>
