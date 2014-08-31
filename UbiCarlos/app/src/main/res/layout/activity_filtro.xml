@@ -1,59 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 
+<?xml version="1.0" encoding="utf-8"?>
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/filto"
+    android:id="@+id/"
     android:background="#ffd88aff">
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"></FrameLayout>
 
-    <CheckBox
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Artículo"
-        android:id="@+id/checkBox"
-        android:layout_gravity="center|right"
-        android:textSize="30dp"
-        android:textColor="#ff7d07aa"
-        android:checked="false"
-        android:clickable="true"
-        android:textStyle="bold" />
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:weightSum="1">
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Categoría"
-        android:id="@+id/checkBox2"
-        android:layout_gravity="left|center"
-        android:textSize="30dp"
-        android:textColor="#ff7d07aa"
-        android:checked="false"
-        android:clickable="true"
-        android:textStyle="bold" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:text="Artículo"
+                android:id="@+id/ButtonArticulo"
+                android:layout_gravity="center_horizontal"
+                android:checked="true"
+                android:clickable="true"
+                android:gravity="bottom|center_vertical|fill"
+                android:textColor="#ff5d0ea1"
+                android:textStyle="bold"
+                android:textSize="25dp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categoría"
+                android:id="@+id/ButtonCategoria"
+                android:checked="true"
+                android:gravity="bottom|center_vertical|fill"
+                android:textColor="#FF5D0EA1"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+    </LinearLayout>
 
     <ImageView
-        android:layout_width="301dp"
-        android:layout_height="230dp"
+        android:layout_width="1178dp"
+        android:layout_height="213dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal|top"
+        android:layout_weight="0.67"
         android:src="@drawable/logosccr" />
 
-    <ImageView
-        android:layout_width="296dp"
-        android:layout_height="267dp"
-        android:id="@+id/imageView2"
-        android:src="@drawable/escribir"
-        android:layout_gravity="center_horizontal|bottom" />
-
-    <ImageButton
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageButton"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="191dp"
         android:layout_gravity="center_horizontal|bottom"
-        android:src="@android:drawable/ic_menu_add"
-        android:scaleType="fitXY" />
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="154dp"
+            android:layout_height="50dp"
+            android:id="@+id/editText"
+            android:layout_gravity="bottom|center"
+            android:textStyle="italic"
+            android:theme="@style/AppTheme"
+            android:typeface="sans"
+            android:viewName="Buscar"
+            android:visibility="visible"
+            android:textColor="#ffbc07ff"
+            android:text="Buscar |"
+            android:gravity="top|center_vertical|center_horizontal"
+            android:background="#ff000000"
+            android:textSize="30dp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:longClickable="false"
+            android:nestedScrollingEnabled="false"
+            android:layout_weight="0.19"
+            android:textSize="40dp"
+            android:textColor="#ff47ff0b"
+            android:textStyle="bold" />
+
+    </LinearLayout>
 </FrameLayout>
