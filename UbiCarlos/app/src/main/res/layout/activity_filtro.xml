@@ -51,8 +51,8 @@
     </LinearLayout>
 
     <ImageView
-        android:layout_width="1178dp"
-        android:layout_height="213dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal|top"
         android:layout_weight="0.67"
